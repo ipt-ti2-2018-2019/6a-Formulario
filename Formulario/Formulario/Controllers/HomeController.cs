@@ -29,7 +29,7 @@ namespace Formulario.Controllers {
             resposta = "você chama-se " + nome;
          }
 
-         if(idade != null) {
+         if(idade != null && idade >= 10 && idade <= 120) {
             resposta += " e tem " + idade + " anos.";
          }
 
